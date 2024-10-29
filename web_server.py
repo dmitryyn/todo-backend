@@ -3,7 +3,7 @@ from manager import EntryManager
 from  resources import Entry
 
 app = Flask(__name__)
-FOLDER = '/users/dmitry/tmp/'
+FOLDER = '/tmp/'
 
 @app.route("/")
 def hello_world():
